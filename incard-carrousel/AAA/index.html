@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería AAA Interactiva</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Fondo blur al abrir -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- =====================================
+       TARJETA PRINCIPAL
+       ===================================== -->
+    <section class="card" id="card">
+
+        <!-- Encabezado -->
+        <header class="card-header">
+            <h2>Experiencia AAA</h2>
+            <p>Mantén cursor 2.5 segundos o presiona en móvil</p>
+        </header>
+
+        <!-- =====================================
+         VENTANA DEL CARRUSEL
+         ===================================== -->
+        <div class="carousel-window" id="window">
+
+            <!-- Track desplazable -->
+            <div class="carousel-track" id="track">
+
+                <!-- Slides -->
+                <article class="slide">16:9</article>
+                <article class="slide">16:9</article>
+                <article class="slide">16:9</article>
+                <article class="slide">16:9</article>
+                <article class="slide">16:9</article>
+
+            </div>
+
+        </div>
+
+        <!-- =====================================
+         CONTROLES
+         ===================================== -->
+        <div class="controls">
+
+            <button class="nav-btn" id="prevBtn">←</button>
+
+            <!-- Indicadores -->
+            <div class="dots" id="dots"></div>
+
+            <button class="nav-btn" id="nextBtn">→</button>
+
+        </div>
+
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
